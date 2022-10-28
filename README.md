@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-SaPSrqMhI9)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/intro-component-with-signup-form-fUiIpxlCg2)
 - Live Site URL: [Vercel](https://baseapparelpage-theta.vercel.app/)
 
 ## My process
