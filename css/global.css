@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/bg-intro-desktop.png);
+  background-color: var(--clr-pmry-red);
+  display: grid;
+  align-items: center;
+}
+img,
+picture,
+svg {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+@media (max-width: 23.4375rem) {
+  body {
+    background: url(../images/bg-intro-mobile.png);
+    background-color: var(--clr-pmry-red);
+  }
+}

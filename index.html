@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign-up</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <main class="container">
+    <section class="content-info">
+      <h1 class="font-poppins-700">Learn to code by<br> watching others</h1>
+      <p class="font-poppins-500">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+    </section>
+    <a class="btn-try font-poppins-400" href="./"><span class="font-poppins-600">Try it free 7 days</span> then $20/mo. thereafter</a>
+    <form class="content-form" action="./">
+      <input type="text" name="name" id="name" placeholder="First Name" required>
+      <span class="error-msg">First Name cannot be empty</span>
+      <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
+      <span class="error-msg">Last Name cannot be empty</span>
+      <input type="email" name="email" id="email" placeholder="Email Address" required>
+      <span class="error-msg">Looks like this is not an email</span>
+      <input type="password" name="password" id="password" placeholder="Password" required>
+      <span class="error-msg">Password cannot be empty</span>
+      <input class="font-poppins-600" type="submit" value="Claim your free trial" id="submit"></input>
+      <p class="font-poppins-400 color-gr-blue">By clicking the button, you are agreeing to our <a class="font-poppins-600 color-pmry-red" href="./">Terms and Services</a></p>
+    </form>
+  </main>
+  <script src="./js/script.js"> </script>
+</body>
+
+</html>

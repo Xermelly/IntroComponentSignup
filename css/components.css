@@ -1,0 +1,38 @@
+:root {
+  --clr-pmry-red: hsl(0, 100%, 74%);
+  --clr-pmry-green: hsl(154, 59%, 51%);
+  --clr-accnt-blue: hsl(248, 32%, 49%);
+  --clr-dk-blue: hsl(249, 10%, 26%);
+  --clr-gr-blue: hsl(246, 25%, 77%);
+  --font-poppins-400: 400 1rem/1.5 "Poppins", sans-serif;
+  --font-poppins-500: 500 1rem/1.5 "Poppins", sans-serif;
+  --font-poppins-600: 600 1rem/1.5 "Poppins", sans-serif;
+  --font-poppins-700: 700 1rem/1 "Poppins", sans-serif;
+}
+.color-pmry-red {
+  color: var(--clr-pmry-red);
+}
+.color-pmry-green {
+  color: var(--clr-pmry-green);
+}
+.color-accnt-blue {
+  color: var(--clr-accnt-blue);
+}
+.color-dk-blue {
+  color: var(--clr-dk-blue);
+}
+.color-gr-blue {
+  color: var(--clr-gr-blue);
+}
+.font-poppins-400 {
+  font: var(--font-poppins-400);
+}
+.font-poppins-500 {
+  font: var(--font-poppins-500);
+}
+.font-poppins-600 {
+  font: var(--font-poppins-600);
+}
+.font-poppins-700 {
+  font: var(--font-poppins-700);
+}
